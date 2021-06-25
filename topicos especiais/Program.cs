@@ -13,16 +13,8 @@ namespace topicos_especiais
             Console.WriteLine("day of year:"+t2.DayOfYear);
             Console.WriteLine("day of week:" + t2.DayOfWeek);
             Console.WriteLine(t1);
-            int soma = 0;
-            for (int i = 1; i < 3; i++)
-            {
-                
-                Console.WriteLine("entre com tres numeros");
-                Console.WriteLine("num" + i + ":");
-                int n = int.Parse(Console.ReadLine());
-                soma += n;
-                
-            }
+            int soma = 799*56;
+
             Console.WriteLine(soma);
         }
     }
